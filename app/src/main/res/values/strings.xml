@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WeatherSG</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_weather">Weather</string>
+    <string name="title_activity_database">Database</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_temperature">Temperature</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_data">Data</string>
+    <string name="title_activity_task_adapter">TaskAdapter</string>
+    <string name="title_activity_task">Task</string>
+</resources>

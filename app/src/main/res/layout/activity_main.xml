@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/backgroundd">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/weather"
+        android:layout_gravity="top|center"
+        android:layout_marginBottom="46dp"
+        android:layout_above="@+id/imageButton3"
+        android:layout_toLeftOf="@+id/imageButton2"
+        android:layout_toStartOf="@+id/imageButton2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/temp"
+        android:layout_gravity="center|top"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_alignRight="@+id/imageButton4"
+        android:layout_alignEnd="@+id/imageButton4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/database_search"
+        android:layout_gravity="center|top"
+        android:layout_marginBottom="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:src="@drawable/worldmap"
+        android:layout_gravity="center|top"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
